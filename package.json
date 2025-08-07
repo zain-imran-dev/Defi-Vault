@@ -1,0 +1,43 @@
+{
+  "name": "defivault-bsc",
+  "version": "1.0.0",
+  "description": "DeFiVault - Complete DeFi ecosystem on Binance Smart Chain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network bscTestnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network bsc",
+    "verify": "hardhat run scripts/verify.js --network bsc",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "defi",
+    "bsc",
+    "binance-smart-chain",
+    "yield-farming",
+    "liquidity-pool",
+    "referral-system",
+    "solidity",
+    "hardhat"
+  ],
+  "author": "DeFiVault Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/defivault-bsc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/defivault-bsc/issues"
+  },
+  "homepage": "https://github.com/your-username/defivault-bsc#readme"
+}
